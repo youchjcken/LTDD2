@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="QLNV">Quản lý nhân viên</string>
+    <string name="tennv">Tên NV: </string>
+    <string name="manv">Mã NV: </string>
+    <string name="gt">Giới tính </string>
+    <string name="nu">Nữ</string>
+    <string name="nam">Nam</string>
+    <string name="nhap">Nhập NV</string>
+    <string name="DSNV">Danh sách nhân viên: </string>
+
+    <string name="name">TenNV</string>
+    <string name="ma">MaNV</string>
+
+</resources>

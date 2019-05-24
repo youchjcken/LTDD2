@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="title">
+        <item name="android:background">@drawable/title</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/QLNV</item>
+        <item name="android:textSize">50dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="input">
+        <item name="android:background">@drawable/input</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+    <style name="nhap">
+        <item name="android:background">@drawable/btnnhap</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_margin">50dp</item>
+        <item name="android:text">@string/nhap</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+    <style name="text">
+        <item name="android:background">@drawable/text</item>
+    </style>
+    <style name="rbt">
+        <item name="android:background">@drawable/btnnhap</item>
+    </style>
+
+    <!--TẠO THEME MỚI-->
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary1</item>                       <!--Màu chính (ví dụ nền AppBar)-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark1</item>               <!--Màu nền thanh trạng thái điện thoại-->
+        <item name="colorAccent">@color/colorAccent1</item>                         <!--Màu nhấn mạnh (kiểm trong checkbox, gạch chân TextBox ...)-->
+        <item name="android:windowBackground">@color/myWindowBackground</item>      <!--Màu nền Activity-->
+        <item name="android:textColorPrimary">@color/textColorPrimary1</item>       <!--Màu chữ trong các control như Button ... -->
+        <item name="android:textColorSecondary">@color/textColorSecondary1</item>   <!--Màu chữ ở trạng thái  ... -->
+
+    </style>
+</resources>
